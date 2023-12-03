@@ -5,8 +5,8 @@ Project Preparation Activity 3
 You must watch the briefing video and read through the manual to engage in the development activities.
 
 
-Section: [Insert your lab section]
+Section: [L07]
 
-MacID: [Insert your macID here]
+MacID: [zamans22,meenaksu]
 
-StudentID: [Insert your numerical student ID here]
+StudentID: [400466227,400462000]

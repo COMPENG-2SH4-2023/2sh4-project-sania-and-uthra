@@ -1,8 +1,8 @@
 #ifndef GAMEMECHS_H
 #define GAMEMECHS_H
 
-#include <cstdlib>
-#include <time.h>
+#include <cstdlib> // provides srand() and rand()
+#include <time.h>  // ctime 
 
 #include "objPos.h"
 #include "objPosArrayList.h"
@@ -21,14 +21,18 @@ class GameMechs
     private:
         char input;
         bool exitFlag;
+        bool loseFlag; 
+        int score; 
         
         int boardSizeX;
         int boardSizeY;
 
     public:
+        // constructors 
         GameMechs();
         GameMechs(int boardX, int boardY);
         
+        // getters and setters 
         bool getExitFlagStatus();
         void setExitTrue();
 
@@ -38,6 +42,12 @@ class GameMechs
 
         int getBoardSizeX();
         int getBoardSizeY();
+
+        bool getLoseFlagStatus();
+        void setLoseFlag();
+
+        int getScore();
+        void incrementScore(int value); 
       
 
 };
